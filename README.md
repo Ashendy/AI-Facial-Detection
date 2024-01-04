@@ -66,7 +66,7 @@ For any additional questions, please contact **Andy Shen - itsahaotian@gmail.com
 
 ### Repository Structure
 
-You are in the README.md. Main.ipynb contains the jupyter notebook that explains the data science steps for you to replicate. 'Slides.pdf' contains our google slides presentation. In 'data' you will be able to see the dataset we worked with. Likewise, 'Images' will contain images used in this 'README.md' generated from code and as well as from the web.
+You are in the README.md. Main.ipynb contains the jupyter notebook that explains the data science steps for you to replicate. 'Slides.pdf' contains the Canva presentation. In 'data' you will be able to see the dataset I worked with. Likewise, 'Images' will contain images used in this 'README.md' generated from code and as well as from the web.
 
 ```
 ├── README.md                           <- The top-level README 
