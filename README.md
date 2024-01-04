@@ -22,10 +22,56 @@ FaceCheck equips individuals with the ability to detect and verify faces. FaceCh
 - Protect themselves from online scams and phishing attempts.
 - Contribute to a safer and reliable online experience
 
-## Data Understanding
+## Data
 
-## Visualization & Evaluation
+The dataset comes from https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection/ .
 
-## Future Insight
+Examples of real faces:
+
+![real_faces_grid](./images/real_faces_grid.png)
+
+Fake faces are split by easy, medium, hard difficulty.
+
+Examples of fake faces:
+
+![fake_faces_grid](./images/fake_faces_grid.png)
+
+## Models
+
+Models used include:
+
+- Baseline model with 1 Dense layer 
+- MobileNet v2 model
+- VGG16 Model
+- 2 Other models experimenting with different layers and hyper parameters
+
+## Results:
+
+**MobileNetv2** model had the best training accuracy, however all models had around 53% accuracy for the validation/test accuracy. 
+
+
+More data is pnecessary. There is too much variance such as skin tone, accessories, facial expression, and angle.
+
+## Future Steps
+
+- Increase amount of training and testing data
+- Continue to tune models
+- Connect a front end app that allows users to upload a picture and get feedback immediately
+
+## For More Information
+
+Please review the full analysis in [the Jupyter Notebook](./Main.ipynb) or the [presentation](./Slides.pdf).
+
+For any additional questions, please contact **Andy Shen - itsahaotian@gmail.com**
 
 ### Repository Structure
+
+You are in the README.md. Main.ipynb contains the jupyter notebook that explains the data science steps for you to replicate. 'Slides.pdf' contains our google slides presentation. In 'data' you will be able to see the dataset we worked with. Likewise, 'Images' will contain images used in this 'README.md' generated from code and as well as from the web.
+
+```
+├── README.md                           <- The top-level README 
+├── Main.ipynb                          <- documentation of analysis in Jupyter notebook
+├── Slides.pdf                          <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
