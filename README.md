@@ -1,4 +1,4 @@
-# AI-Facial-Detection
+# FaceCheck
 ML model for detecting if a face is AI generated or real
 
 ## Overview
